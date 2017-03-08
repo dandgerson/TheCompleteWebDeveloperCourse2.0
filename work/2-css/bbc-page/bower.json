@@ -1,0 +1,23 @@
+{
+  "name": "complete-web2.0-bbc-page",
+  "authors": [
+    "Dmitry Anderson <dandgerson@gmail.com>"
+  ],
+  "description": "my education project",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "normalize.css#^5.0.0",
+    "modernizer": "^2.8.2"
+  }
+}

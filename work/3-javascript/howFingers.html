@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>How many fingers in my mind?</p>
+	<input id="howFingersInput" type="text">
+	<p><button id="howFingersButton" type="button">How?</button></p>
+	<script>
+		
+		document.getElementById("howFingersButton").onclick = function (){
+			var randomNumber = Math.random();
+				randomNumber = randomNumber * 6;
+				randomNumber = Math.floor(randomNumber);
+			if (document.getElementById("howFingersButton").value == randomNumber){
+				alert("well done!! You got it!!");
+			}
+			else {
+				alert("Nope, you don't got it!!! The number was " + randomNumber);
+			}
+		}
+
+	</script>
+</body>
+</html>

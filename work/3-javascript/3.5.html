@@ -1,0 +1,59 @@
+
+<!-- saved from url=(0071)http://www.completewebdevelopercourse.com/content/3-javascript/3.5.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        
+        <title>Javascript</title>
+        
+        
+    
+    </head>
+
+    <body cz-shortcut-listen="true">
+        
+        <p id="text">Hello World!</p>
+        
+        <button id="myButton">Change text</button>
+        
+        <p id="secondParagraph">Javascript is ... </p>
+        
+        <button id="secondButton">Append text</button>
+        
+        <p id="emptyParagraph"></p>
+        
+        <button id="createParagraph">Create text</button>
+        
+        <script type="text/javascript">
+            
+            document.getElementById("myButton").onclick = function() {
+                
+                document.getElementById("text").innerHTML = "Hello Rob!";
+                
+            }
+            
+            document.getElementById("secondButton").onclick = function() {
+                
+                document.getElementById("secondParagraph").innerHTML = "I think " + document.getElementById("secondParagraph").innerHTML + "awesome!";
+                
+            }
+            
+            document.getElementById("createParagraph").onclick = function() {
+                
+                
+                document.getElementById("emptyParagraph").innerHTML = "<h1>Hi there!</h1>";
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        </script>
+        
+    
+
+</body></html>
